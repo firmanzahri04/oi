@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_gravity="center_vertical"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/ivRumahSakit"
+            android:onClick="clickRumahSakit"
+            android:layout_width="217dp"
+            android:layout_height="221dp"
+            app:srcCompat="@drawable/sakit" />
+
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/ivKantorPolisi"
+            android:layout_width="195dp"
+            android:layout_height="224dp"
+            app:srcCompat="@drawable/police" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/ivBelanja"
+            android:layout_width="217dp"
+            android:layout_height="221dp"
+            app:srcCompat="@drawable/shooping1" />
+
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/ivSekolah"
+            android:layout_width="195dp"
+            android:layout_height="224dp"
+            app:srcCompat="@drawable/sekolah" />
+    </TableRow>
+</LinearLayout>
